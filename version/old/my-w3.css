@@ -1,0 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed');
+
+html, body, select {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}

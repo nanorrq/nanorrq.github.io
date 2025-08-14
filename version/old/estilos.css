@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed');
+
+html, body, *, select {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 16pt;
+    line-height: 1.4em;
+}
+
+body {
+	color: red;
+	margin: 0;
+	margin-top: 4px;
+	background-color: #7040A0;
+}
+
+hr.small {
+	border-style: none;
+	border-bottom: solid 1px yellow;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	border-width: 1px;
+}
+
+a {
+	font-weight: normal;
+	color: white;
+	border: 1px solid #7040A0;
+	padding: 1px;
+	text-decoration: none;
+	text-transform: uppercase;
+	white-space: nowrap;
+}
+
+a:hover {
+	color: yellow;
+	background-color: #A04040;
+	border: 1px solid white;
+	padding: 1px;
+}
+
+div#submenu {
+	border-width: 1px;
+	border-style: solid;
+	border-color: white;
+	margin-top: 4px;
+	margin-bottom: 4px;
+	text-align: center;
+	column-break-inside: avoid;
+}
+
+
+div#submenu > p:first-child {
+	font-weight: bold;
+	font-size: 1.5rem;
+	text-align: center;
+	color: #FFFFFF;
+	margin: 0;
+	padding: 0;
+	background-color: #008000;
+	color:yellow;
+	column-break-after: avoid;
+}
+
+
+div#submenu > p {
+	margin: .2em;
+	padding: 0;
+}
+
+div#submenu + div#submenu {
+	margin-top: 0.6em;
+}
+
+#content {
+	width: 99%;
+	margin: 1% auto;
+	text-align:left;
+}
+
+#sidebar {
+	float: left;
+	width: 49%;
+	margin:0;
+	padding:0;
+}
+
+#sidebar.main {
+    width: 100%;
+}
+
+#sidebar-content, #main-content {
+	margin: 0; 
+	padding: 0.1em .2em;
+	border: 0;
+}
+
+#main {
+	margin:0 0 0 49%;
+	padding:0;
+}
+
+
+hr.cleaner {
+	clear: both;
+	height: 0;
+	margin: 0; 
+	padding: 0;
+	border: none;
+	visibility: hidden;
+}
+
+div.section {
+    border: 1px solid white;
+    margin: 4px;
+}
+
+div.section a {
+    display: block;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 0;
+    text-align: center;
+}
+
+div.section h1 {
+    background-color: black;
+    color: white;
+    font-size: 1em;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: center;
+}
