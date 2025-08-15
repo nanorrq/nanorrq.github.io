@@ -1,10 +1,29 @@
 html {
 	font-size: 16pt;
+	line-height: 2rem;
+}
+
+
+a[href^='https://www.youtube.com/']:before,
+a[href$='.pdf']:before {
+	font-family: "Bootstrap-icons";
+	line-height: 2rem;
+	padding-right: 0.5rem;
+	vertical-align: -.225em;
+}
+ 
+a[href^='https://www.youtube.com/']:before {
+	content: "\F21F";
+}
+
+a[href$='.pdf']:before {
+	content: "\F63F";
+	color: red;
 }
 
 .app-content a {
 	background-color: transparent;
-	border: 1px dashed #000 !important;
+	border: 1px dotted #000 !important;
 	border-radius: 4px;
 	padding: 2px 4px;
 	text-decoration: none !important;
@@ -26,7 +45,7 @@ html {
 }
 
 .card-body {
-	line-height: 2.1rem;
+	line-height: 2rem;
 	padding: 0.5rem;
 }
 
