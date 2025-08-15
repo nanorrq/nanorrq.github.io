@@ -5,7 +5,8 @@ html {
 .app-content a {
 	background-color: transparent;
 	border: 1px dashed #000 !important;
-	padding: 4px;
+	border-radius: 4px;
+	padding: 2px 4px;
 	text-decoration: none !important;
 	text-transform: uppercase;
 	white-space: nowrap;
